@@ -23,6 +23,8 @@ Tools where a written specification is the central, durable artifact that feeds 
 - **[OpenSpec](https://github.com/Fission-AI/OpenSpec)** — ~66.9k ⭐. Lightweight, vendor-neutral spec format with a fluid `explore → propose → apply → archive` change lifecycle (`/opsx:*`). Writes *delta* specs (only what changes) that archive into a single source-of-truth doc. Node/TypeScript CLI, `openspec init`; supports 30+ tools. Strong on brownfield.
 - **[Spec Kitty](https://github.com/Priivacy-ai/spec-kitty)** — ~1.6k ⭐. SDD workflow (`spec → plan → tasks → next → review → accept → merge`) with a Kanban dashboard, git-worktree isolation, review gates, and auto-merge; keeps specs, plans, work packages, and merge state in Git as the source of truth. Inspired by the Spec Kit idea, aimed at teams running a "governed software factory."
 
+- **[Cage](https://github.com/vitalik1921/cage)** — ~2 ⭐. TypeScript contract harness linking durable Markdown specs to implementations, invariant tests, and freshness-tracked reviews for Claude Code and Codex.
+
 ## Adjacent Layers (grouped with SDD, but not spec formats)
 
 Frequently listed alongside SDD and pair well with it, but they operate at a different layer (context engineering, skills/methodology enforcement, or orchestration) rather than defining a spec as the source of truth.
